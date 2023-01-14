@@ -71,3 +71,37 @@ nav{
 }
 
 /* -------header section end------------ */
+
+/* -----------------card section start------------------------ */
+.card-container{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+.all-card{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card-text-area{
+    margin: 250px 0 0 40px;
+}
+.card-text-area h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text-1{
+    color: rgb(165, 165, 165) ;
+}
+.text-2{
+    color: rgb(5, 5, 5) ;
+}
+.text-3{
+    color: rgb(255, 137, 3);
+}
+.card-text-area p{
+    font-size: 15px;
+    color: rgb(57, 55, 55);
+    margin: 20px 0;
+}
+/* -----------------card section  end------------------------ */
