@@ -225,6 +225,19 @@ nav{
 .sponsors-list img{
     width: 100px;
 }
-/* -----------------sponsors-section end------------------------ */
+/* -----------------sponsors-section end------------------------ */  
+
+/* -----------------bonus-section start------------------------ */
+.bonus-section{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    column-gap: 40px;
+    padding: 50px 0 110px 0;
+}
+.bonus-img img{
+    width: 500px;
+}
+/* -----------------bonus-section end------------------------ */
 
 
