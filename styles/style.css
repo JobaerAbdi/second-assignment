@@ -233,11 +233,21 @@ nav{
     width: 1100px;
     margin: 0 auto;
     column-gap: 40px;
-    padding: 50px 0 110px 0;
+    padding: 50px 0 60px 0;
 }
 .bonus-img img{
     width: 500px;
 }
 /* -----------------bonus-section end------------------------ */
+
+/* -----------------footer-section start------------------------ */
+.footer-section{
+    background-color: rgb(222, 166, 62);
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 130px;
+    border-radius: 10px;
+}
+/* -----------------footer-section end------------------------ */
 
 
