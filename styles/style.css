@@ -251,3 +251,103 @@ nav{
 /* -----------------footer-section end------------------------ */
 
 
+
+
+/* -----------------Responsive area---------------------------- */
+/* ------------------------------------------------------------ */
+@media only screen and (max-width: 576px) {
+    /* -------header section responsive start------------ */
+    nav, .nav-links{
+        flex-direction: column;
+    }
+    .nav-links a{
+        margin-top: 10px;
+    }
+    .banner-area img{
+        margin: 0;
+    }
+    /* -------header section responsive end------------ */
+
+
+    /* -----------------card section responsive start------------------------ */
+    .card-container{
+        flex-direction: column;
+    }
+    .all-card{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 0;
+    }
+    .single-card img{
+        width: 100%;
+    }
+    .card-text-area{
+        margin: 0;
+        text-align: center;
+    }
+    /* -----------------card section responsive end------------------------ */
+
+
+    /* -----------------project section responsive start------------------------ */
+      .project-section{
+        flex-direction: column;
+        margin: 0;
+        column-gap: 0px;
+      }
+      .project-text-area{
+        width: 100%;
+      }
+      .project-image-area{
+        width: 100%;
+      }
+      .project-image-area img{
+        width: 100%;
+      }
+      .btn-project{
+        margin-left: 110px;
+        margin-top: 25px;
+      }
+    /* -----------------project section responsive end------------------------ */
+
+
+    /* -----------------counter-section responsive start------------------------ */
+      .counters-area{
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .sigle-count{
+        margin-left: 130px;
+      }
+    /* -----------------counter-section responsive end-------------------------- */ 
+
+
+    /* -----------------sponsors-section responsive start-------------------------- */
+      .sponsors-section{
+        width: 100%;
+      }
+      .sponsors-list{
+        flex-direction: column;
+        row-gap: 35px;
+      }
+      .sponsors-list img{
+        margin-left: 150px;
+      }
+    /* -----------------sponsors-section responsive end-------------------------- */
+
+
+    /* -----------------bonus-section responsive start-------------------------- */
+    .bonus-section{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .bonus-text{
+        width: 500px;
+    }
+    /* -----------------bonus-section responsive end-------------------------- */
+
+
+    /* -----------------footer-section responsive start-------------------------- */
+    .footer-section{
+        background-color: rgb(239, 239, 235);
+    }
+    /* -----------------footer-section responsive end-------------------------- */
+}
